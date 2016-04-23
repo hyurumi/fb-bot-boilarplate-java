@@ -2,12 +2,7 @@
 A facebook bot boilerplate in Java, which can easily be deployed to Heroku.
 
 ## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 - Normal FB bot settings are also required.
 - Set Environment variables("ACCESS_TOKEN", "VALIDATION_TOKEN"). Both parameters are available in the fb developer console.

@@ -1,6 +1,15 @@
 {
   "name": "Java FB Bot Example",
-  "description": "A barebones Java bot, which can easily be deployed to Heroku.",
-  "image": "heroku/java",
-  "addons": [ "" ]
+  "description": "A boilerplate facebook Java bot, which can easily be deployed to Heroku.",
+  "env": {
+    "ACCESS_TOKEN": {
+      "description": "access token for Facebook bot. please copy the value FROM dev console.",
+      "required": true
+    },
+    "VALIDATION_TOKEN": {
+      "description": "validateion token for webhook in Facebook bot. please copy this value TO dev console",
+      "required": true,
+      "generator": "secret"
+    }
+  }
 }

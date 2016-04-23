@@ -1,0 +1,6 @@
+{
+  "name": "Java FB Bot Example",
+  "description": "A barebones Java bot, which can easily be deployed to Heroku.",
+  "image": "heroku/java",
+  "addons": [ "" ]
+}
